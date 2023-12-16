@@ -1,10 +1,9 @@
 export default function Home() {
   return (
     <>
-      <h1 className='text-2xl font-bold mb-5'>Welcome</h1>
-      <p className='mb-5'>
-        This is the demo site for Traversy Media's Next.js & Clerk tutorial. Go
-        ahead and sign up or sign in!
+      <h1 className='text-2xl font-bold mb-5 text-blue-600'>Welcome NxtGen</h1>
+      <p className='mb-5 font-bold text-purple-600'>
+       The Innovative Exposure Experience for Engineers
       </p>
     </>
   );

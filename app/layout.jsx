@@ -1,7 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ClerkProvider } from '@clerk/nextjs';
-import { light } from '@clerk/themes';
+import { light } from '@clerk/themes'; //change to dark mode as well 
 import Header from './components/Header';
 
 const inter = Inter({ subsets: ['latin'] });

@@ -5,11 +5,11 @@ const Header = async ({ username }) => {
   const { userId } = auth();
 
   return (
-    <nav className='flex items-center justify-between px-6 py-4 mb-5 bg-blue-700'>
+    <nav className='flex items-center justify-between px-6 py-4 mb-5 bg-blue-900'>
       <div className='flex items-center'>
         <Link href='/'>
-          <div className='text-lg font-bold text-white uppercase'>
-            Clerk App
+          <div className='text-lg font-bold text-white lowercase'>
+            NxtGen Registration 
           </div>
         </Link>
       </div>
@@ -20,7 +20,7 @@ const Header = async ({ username }) => {
               href='sign-in'
               className='text-gray-300 hover:text-white mr-4'
             >
-              Sign In
+              Sign 
             </Link>
             <Link
               href='sign-up'
